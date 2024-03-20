@@ -1,0 +1,15 @@
+/* comments in CSS work like this */
+/* for each element, there is a link to the mdn web docs, explaining what it does */
+body {
+    display: flex;    		   	/*  https://developer.mozilla.org/en-US/docs/Web/CSS/display */		
+    justify-content: center;	/*  https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+    align-items: center;		/*  https://developer.mozilla.org/en-US/docs/Web/CSS/align-items */
+    height: 100vh;				/* 	https://developer.mozilla.org/en-US/docs/Web/CSS/height */
+    background-color: #e9e9e9;  /*  https://developer.mozilla.org/en-US/docs/Web/CSS/background-color */
+    							/*  background color can be hex, keyword, rgb, rgba, hsl or hsla */
+}
+
+canvas {
+    border: 1px solid #333;		/* https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    background-color: #fff;     /*  https://developer.mozilla.org/en-US/docs/Web/CSS/background-color */
+}
