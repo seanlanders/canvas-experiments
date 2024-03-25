@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.fill(); // Fill the circle with color
         ctx.closePath(); // Close the path
     } else {
-        // If drawCircle is false, draw a red square instead
-        ctx.fillStyle = 'red'; // Set the fill color for the square
-        ctx.fillRect(150, 150, 100, 100); // Draw a square
+        // If drawCircle is false, draw something else instead
+        // Set the fill color for the shape
+        // Draw a shape
     }
 });
